@@ -7,3 +7,4 @@ run :
 	rm -f unhappy
 	OMP_NUM_THREADS=8 mpirun -np 1 ./mpidriver/driver -d -t compute -o "-n1541519990 -r100000"
 
+
